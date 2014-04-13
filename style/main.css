@@ -26,7 +26,7 @@ input {
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
-  /*color: #f9f6f2;*/
+  color: #f9f6f2;
   height: 40px;
   line-height: 42px;
   cursor: pointer;
@@ -59,7 +59,7 @@ input {
   clear: both; }
 
 h1.title {
-  font-size: 55px;
+  font-size: 44px;
   font-weight: medium;
   margin: 0;
   display: block;
@@ -124,7 +124,7 @@ h1.title {
     font-size: 25px;
     line-height: 25px;
     font-weight: bold;
-    /*color: rgba(119, 110, 101, 0.9);*/
+    color: rgba(119, 110, 101, 0.9);
     z-index: 100;
     -webkit-animation: move-up 600ms ease-in;
     -moz-animation: move-up 600ms ease-in;
@@ -210,7 +210,7 @@ hr {
   -ms-user-select: none;
   -ms-touch-action: none;
   touch-action: none;
-  background: #1e6477;
+  background: red;
   border-radius: 6px;
   width: 500px;
   height: 500px;
@@ -982,7 +982,7 @@ a.learn:hover, a.keep-playing-button:hover, a.learn-low:hover {
 }
 .restart-button, a.retry-button {
   display: inline-block;
-  background: #1e6477;
+  background: red;
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
